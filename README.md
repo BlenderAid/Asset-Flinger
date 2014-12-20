@@ -1,12 +1,12 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 # Asset Flinger
-An addon for Blender for simple mesh importing/exporting via graphical menu. 
-The Add-on also includes a drag-and-drop Thumbnail-renderer for .obj files (works on Windows, Mac and Linux).
+A Blender Add-on for simple mesh importing/exporting via graphical menu. 
+The Add-on also includes a drag-and-drop thumbnail renderer for .obj files (works on Windows, Mac and Linux).
 
-> Note that the Blender's new very comprehensive Asset Browser is under development by Blender Foundation's Developers. Keep following [Gooseberry blog](http://gooseberry.blender.org/) and development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful to use.
+> Note that there's in development a new very comprehensive Asset Browser for Blender by the Developers of the Blender Foundation. Keep following the [Gooseberry blog](http://gooseberry.blender.org/) and development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful for some people.
 
 ##Download :
-Here you can download the easily installable Add-on with ready-made CC0/Public Domain objects, file structure and Thumbnailer .blend templates: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
+Here you can download the easily installable Add-on with ready-made CC0/Public Domain objects, the Python files in correct directories and some .blend templates for the thumbnailer. All in one package: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
 
 ## Demo :
 
@@ -21,7 +21,12 @@ Here you can download the easily installable Add-on with ready-made CC0/Public D
 * Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
 * Supports subfolders
 * Supports **.obj** file format and **.mtl** materials (object material slots are remembered)
-* For generating the asset thumbnails, user can drag-and-drop **.obj** files to the provided Thumbnailer python file (New instance of Blender will render them in the background)
+* For generating the asset thumbnails, user can drag-and-drop **.obj** files to the provided Thumbnailer python file. New instance of Blender will render them in the background.
+
+## Installation:
+*
+*
+*
 
 ## Hypothetical Future Development:
 
