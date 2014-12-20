@@ -19,14 +19,14 @@ The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 ## Feature Ideas :
 
 #### Easier to add :
-* backspace goes up one directory (to the parent directory)
 * installing the addon automatically adds one bookmark that points to the ‘assets' folder where objects are exported
+* by pressing a up-folder-icon user can go up one directory (to the parent directory)
 * wrapping of text for long file names
 
 #### Harder to add :
-* less effort to install the THUMBNAILER regardless of operating system 
-* (best would be no effort required at all. However, somehow Python 2.7 needs to be installed anyway)
-* support for .blend objects and materials and their thumbnails
 * scrolling of the thumbnails via mouse wheel
-* by user command, objects could automatically get exported to the assets folder and a confirm message displayed
-* automatic thumbnail creation could be launched through the on-screen Asset Flinger menu
+* automatic thumbnail creation through the on-screen Asset Flinger menu
+* automatic .obj export to the assets folder on user command. Displaying a confirm message
+* support for .blend objects and materials + their thumbnails
+
+
