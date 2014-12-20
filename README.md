@@ -46,45 +46,40 @@ Here you can download the easily installable Add-on with ready-made CC0/Public D
 ----------------------------------------------------------------------
 ####Preparing Asset Flinger Thumbnailer
 1. Check if you have Python installed by opening up the Terminal 
-    *Windows*: **Win-button+R** and type: `cmd`
-    *Mac*: **Command+space** and type: `terminal`
-    *Linux*: **Ctrl+Alt+T**
+ * *Windows*: **Win-button+R** and type: `cmd`
+ * *Mac*: **Command+space** and type: `terminal`
+ * *Linux*: **Ctrl+Alt+T**
 2. Type: `python`
 3. If it says: `Python [version number]` and a couple of lines of text, then you have Python installed
 4. If not, download **[Python 2.7.9](http://www.python.org)** and install it
 5. Open your operating system's file browser and press
-    *Windows*: **Ctrl+L**
-    *Mac*: **Command+Shift+G**
-    *Linux*: **Ctrl+L**
+ * *Windows*: **Ctrl+L**
+ * *Mac*: **Command+Shift+G**
+ * *Linux*: **Ctrl+L**
 6. Paste (**Ctrl+V**) the path to the addons folder and press Enter
 7. Go to folder `/add_mesh_asset_flinger/assets/` and save it to favorites, name it as *"Asset Flinger objects"*
 8. Go back one folder and then go to folder `/thumbnailer/` and save it to favorites, name it as *"Asset Flinger Thumbnailer"*
 
-
 ##### Changing the path to Thumbnailer :
-    > INFO: for the Thumbnailer, default Blender paths are used:
-    >    *Windows*: `C:\\Program Files\\Blender Foundation\\Blender\\blender.exe` (Python requires double-backslashes)
-    >    *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
-    >    *Linux*: `/usr/bin/blender`
+> INFO: for the Thumbnailer, default Blender paths are used:
+> * *Windows*: `C:\\Program Files\\Blender Foundation\\Blender\\blender.exe` (Python requires double-backslashes)
+> * *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
+> * *Linux*: `/usr/bin/blender`
     
-If you need to change the Blender path, navigate to the following file in the thumbnailer folder and open it into a text editor:
-        *Windows*: `Windows\Thumbnailer.py`
-        *Mac*: `Mac/Thumbnailer.app (right-click>Show Package Contents) /Contents/Resources/thumbnail_maker/config`
-        *Linux*: `Linux/Thumbnailer.py`
-    Note to *Windows* and *Linux* users, if you want to move the Thumbnailer, move the whole folder because it contains required hidden files. *Mac* users are free to move their single Thumbnailer wherever they want.
-11. Try to drag your .obj from *'Assets'* to the Thumbnailer like shown in the video
-12. Done, everything should work nicely! If not, feel free to contact the Vendor for help :)
+1. If you need to change the Blender path, navigate to the following file in the addon's folder and open it into a text editor:
+ * *Windows*: `thumbnailer\Windows\Thumbnailer.py`
+ * *Mac*: `thumbnailer/Mac/Thumbnailer.app (right-click>Show Package Contents) /Contents/Resources/thumbnail_maker/config`
+ * *Linux*: `thumbnailer/Linux/Thumbnailer.py`
+
+> Note to *Windows* and *Linux* users, if you want to move the Thumbnailer to a different location, move the whole folder because it contains required hidden files. *Mac* users are free to move their single Thumbnailer wherever they want.
+
+2. Try to drag your .obj from *'Assets'* to the Thumbnailer like shown in the video
+3. Done, everything should work nicely! If not, feel free to contact the Vendor for help :)
 
 ----------------------------------------------------------------------
 Asset Flinger has been tested and proved to work on :
-* Blender 2.70
-* Blender 2.72 
-
-running on : 
-* Windows 7
-* MacOS X 10.10 Yosemite
-* Ubuntu 14.10
-* Xubuntu 14.10
+* Blender 2.70 (Windows 7, MacOS X 10.10 Yosemite, Ubuntu 14.10, Xubuntu 14.10)
+* Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite, Ubuntu 14.10, Xubuntu 14.10) 
 
 ## Hypothetical Future Development:
 
