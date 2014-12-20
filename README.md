@@ -5,10 +5,12 @@ The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 
 > Note that Asset Flinger is useful most probably only for the waiting period until the very comprehensive Blender's new Asset Browser is ready to be released from Blender Foundation's Developers. It's already in development. Keep following [Gooseberry blog](http://gooseberry.blender.org/) to stay up to date on how it's progressing.
 
-**Demo** : 
-[http://www.the_youtube_link_when_finished](http://www.)
+## Demo :
 
-![alt using Asset Flinger](http://i.imgur.com/sjnjRNl.jpg)
+#### Screenshot:
+![alt screenshot](http://i.imgur.com/sjnjRNl.jpg)
+#### Video:
+[![alt video](http://i.imgur.com/sjnjRNl.jpg)](http://www.the_youtube_link_when_finished)
 
 ## Usage :
 
