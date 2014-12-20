@@ -10,9 +10,7 @@ The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 #### Screenshot:
 ![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 #### Video:
-[![Video](http://i.imgur.com/BwRkfsY.jpg)](http://www.the_youtube_link_when_finished)
-
-<a href="http://www.the_youtube_link_when_finished" target="_blank">![Screenshot](http://i.imgur.com/BwRkfsY.jpg)</a>
+<a href="http://www.the_youtube_link_when_finished" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
 
 ## Usage :
 
