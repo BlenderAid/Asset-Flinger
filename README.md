@@ -19,14 +19,14 @@ The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 ## Feature Ideas :
 
 #### Easier to add :
-* installing the addon automatically adds one bookmark that points to the ‘assets' folder where objects are exported
-* by pressing a up-folder-icon user can go up one directory (to the parent directory)
-* wrapping of text for long file names
+* Installing the addon automatically adds a bookmark that points to the ‘assets' folder where the objects should be exported
+* By pressing a up-folder-icon in the on-screen Asset Flinger menu user can go up one directory (to the parent directory)
+* Wrapping of text for long file names
 
 #### Harder to add :
-* scrolling of the thumbnails via mouse wheel
-* automatic thumbnail creation through the on-screen Asset Flinger menu
-* automatic .obj export to the assets folder on user command. Displaying a confirm message
-* support for .blend objects and materials + their thumbnails
+* Scrolling of the thumbnails via mouse wheel
+* Automatic thumbnail creation through the on-screen Asset Flinger menu
+* Automatic .obj export to the assets folder on user command. Displaying a confirm message
+* Support for .blend objects and materials + their thumbnails
 
 
