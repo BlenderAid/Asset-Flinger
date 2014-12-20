@@ -1,13 +1,10 @@
 ![alt header](http://i.imgur.com/gp3BdlI.jpg)
-=============
+
 # Asset Flinger
-=============
 An addon for Blender to use quick shortcuts to easily import and export ready-made or user's own .OBJ mesh objects into Blender via graphical menu. The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 
 **Demo** : 
 [http://www.the_youtube_link_when_finished](http://www.)
-
--------------
 
 ![alt using Asset Flinger](http://i.imgur.com/sjnjRNl.jpg)
 
