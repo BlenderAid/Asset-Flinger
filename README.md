@@ -1,4 +1,4 @@
-![alt header](http://i.imgur.com/gp3BdlI.jpg)
+![Header](http://i.imgur.com/gp3BdlI.jpg)
 # Asset Flinger
 An addon for Blender for simple mesh importing/exporting via graphical menu. 
 The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
@@ -8,9 +8,10 @@ The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 ## Demo :
 
 #### Screenshot:
-![alt screenshot](http://i.imgur.com/sjnjRNl.jpg)
+![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 #### Video:
-[![alt video](http://i.imgur.com/BwRkfsY.jpg)](http://www.the_youtube_link_when_finished)
+[![Asset Flinger Demo](https://img.youtube.com/vi/TrcT7sseLZI/0.jpg)](https://www.youtube.com/embed/TrcT7sseLZI?vq=hd1080&autoplay=1 "Asset Flinger Demo")
+[![Video](http://i.imgur.com/BwRkfsY.jpg)](http://www.the_youtube_link_when_finished)
 
 ## Usage :
 
