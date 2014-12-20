@@ -55,7 +55,7 @@ Here you can download the easily installable Add-on with ready-made CC0/Public D
  * *Mac*: **Command+Shift+G**
  * *Linux*: **Ctrl+L**
 6. Paste (**Ctrl+V**) the path to the addons folder and press Enter
-7. Go to folder `/add_mesh_asset_flinger/assets/` and save it to favorites, name it as *"Asset Flinger objects"*
+7. Go to folder `/add_mesh_asset_flinger/assets/` and save it to favorites, name it as *"Asset Flinger Objects"*
 8. Go back one folder and then go to folder `/thumbnailer/` and save it to favorites, name it as *"Asset Flinger Thumbnailer"*
 
 ##### Changing the path to Thumbnailer :
@@ -79,20 +79,20 @@ Asset Flinger has been tested and proved to work on :
 * Blender 2.70 (Windows 7, MacOS X 10.10 Yosemite, Ubuntu 14.10, Xubuntu 14.10)
 * Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite, Ubuntu 14.10, Xubuntu 14.10) 
 
-## Hypothetical Future Development:
+## Highly Hypothetical Future Development:
 
 #### Feature Ideas (easier to add):
 * Installing the addon automatically adds a bookmark that points to the ‘assets' folder where the objects should be exported
 * Easy GUI option to hide file names in the menu to make it more compact
-* Easy GUI option choose the amount of columns for the menu to make it more compact (in the code there are already easy parameters for this)
-* Providing 3 choices of the Addon. Tiny (32x32), small (64x64) and normal (128x128) thumbnails to make it more compact (in the code there are already easy parameters for this) - The Thumbnailer settings would be changed as well.
+* Easy GUI option to choose the amount of columns for the menu to make it more compact (in the code there are already easy parameters for this)
+* Providing 2 choices of the Addon. Small (64x64) and the current Normal (128x128) thumbnails to make it more compact (in the code there are already easy parameters for this) - The Thumbnailer settings would be changed as well.
 
 #### Feature Ideas (harder to add):
 * By pressing an up-folder-icon in the GUI user can go up one directory (to the parent directory)
 * Wrapping of text for long file names
 * Scrolling of the thumbnails via mouse wheel
 * Automatic thumbnail creation through the on-screen Asset Flinger menu
-* Automatic .obj export to the assets folder on user command. Displaying a confirm message
+* Automatic .obj export to the 'assets' folder on user command. Displaying a confirm message
 * Support for .blend objects and materials + their thumbnails
 
 
