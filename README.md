@@ -24,7 +24,8 @@ The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 
 #### Feature ideas (easier to add):
 * Installing the addon automatically adds a bookmark that points to the ‘assets' folder where the objects should be exported
-* Easy GUI option to hide file names in the menu to make it more compact (in the code there are already easy parameters for this)
+* Easy GUI option to hide file names in the menu to make it more compact
+* Easy GUI option choose the amount of columns for the menu to make it more compact (in the code there are already easy parameters for this)
 * Providing 3 choices of the Addon. Tiny (32x32), small (64x64) and normal (128x128) thumbnails to make it more compact (in the code there are already easy parameters for this) - The Thumbnailer settings would be changed as well.
 
 #### Feature ideas (harder to add):
