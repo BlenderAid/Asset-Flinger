@@ -13,7 +13,7 @@ The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 * Add a mesh asset via shortcut: **Ctrl+Shift+Alt+A**
 * Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
 * Supports subfolders
-* Supports **.obj** file format and **.mtl** materials (asset material slots are remembered)
+* Supports **.obj** file format and **.mtl** materials (object material slots are remembered)
 * For generating the asset thumbnails, user can drag-and-drop **.obj** files to the provided Thumbnailer python file (New instance of Blender will render them in the background)
 
 ## Feature Ideas :
