@@ -6,7 +6,7 @@ The Add-on also includes a drag-and-drop Thumbnail-renderer for the objects.
 > Note that the Blender's new very comprehensive Asset Browser is under development by Blender Foundation's Developers. Keep following [Gooseberry blog](http://gooseberry.blender.org/) and development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful to use.
 
 ##Download :
-Here you can download the easily installable Add-on with ready-made CC0/Public Domain objects and Thumbnailer .blend templates: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
+Here you can download the easily installable Add-on with ready-made CC0/Public Domain objects, file structure and Thumbnailer .blend templates: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
 
 ## Demo :
 
