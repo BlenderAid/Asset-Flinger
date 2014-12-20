@@ -23,16 +23,16 @@ Here you can download the easily installable Add-on with ready-made CC0/Public D
 * Supports **.obj** file format and **.mtl** materials (object material slots are remembered)
 * For generating the asset thumbnails, user can drag-and-drop **.obj** files to the provided Thumbnailer python file (New instance of Blender will render them in the background)
 
-## Future development:
+## Hypothetical Future Development:
 
-#### Feature ideas (easier to add):
+#### Feature Ideas (easier to add):
 * Installing the addon automatically adds a bookmark that points to the ‘assets' folder where the objects should be exported
 * Easy GUI option to hide file names in the menu to make it more compact
 * Easy GUI option choose the amount of columns for the menu to make it more compact (in the code there are already easy parameters for this)
 * Providing 3 choices of the Addon. Tiny (32x32), small (64x64) and normal (128x128) thumbnails to make it more compact (in the code there are already easy parameters for this) - The Thumbnailer settings would be changed as well.
 
-#### Feature ideas (harder to add):
-* By pressing a up-folder-icon in the on-screen Asset Flinger menu user can go up one directory (to the parent directory)
+#### Feature Ideas (harder to add):
+* By pressing an up-folder-icon in the GUI user can go up one directory (to the parent directory)
 * Wrapping of text for long file names
 * Scrolling of the thumbnails via mouse wheel
 * Automatic thumbnail creation through the on-screen Asset Flinger menu
