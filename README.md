@@ -85,14 +85,14 @@ Asset Flinger has been tested and proved to work on :
 * Installing the addon automatically adds a bookmark that points to the ‘assets' folder where the objects should be exported
 * Easy GUI option to hide file names in the menu to make it more compact
 * Easy GUI option to choose the amount of columns for the menu to make it more compact (in the code there are already easy parameters for this)
-* Providing 2 choices of the Addon. Small (64x64) and the current Normal (128x128) thumbnails to make it more compact (in the code there are already easy parameters for this) - The Thumbnailer settings would be changed as well.
+* Providing 2 choices of the Addon - with the current Normal (128x128) and Small (64x64) sized thumbnails to make it more compact (in the code there are already easy parameters for this) - The Thumbnailer settings would be changed as well.
 
 #### Feature Ideas (harder to add):
 * By pressing an up-folder-icon in the GUI user can go up one directory (to the parent directory)
 * Wrapping of text for long file names
 * Scrolling of the thumbnails via mouse wheel
-* Automatic thumbnail creation through the on-screen Asset Flinger menu
-* Automatic .obj export to the 'assets' folder on user command. Displaying a confirm message
+* Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or hassle with installation at all)
+* Automatic .obj export to the 'assets' folder on user command with the same name as the exported object inside Blender. Displaying a confirm/overwrite message
 * Support for .blend objects and materials + their thumbnails
 
 
