@@ -38,7 +38,7 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 2. Open the Python Console (**Shift+F4**), paste the following command and press Enter: `bpy.utils.user_resource('SCRIPTS', "addons")`
 3. In the console, you should see the path to the Blender Add-ons folder for your system, copy  (**Ctrl+C**) that to clipboard (without the ' marks)
 4. Export your object by pressing **Ctrl+Shift+Alt+E**
-5. In the Export panel, press **Ctrl+V** to paste the 'Add-ons' folder location to the *File Path* bar, then go to the folder `/add_mesh_asset_flinger/assets/`
+5. In the Export panel, press **Ctrl+V** to paste the 'Add-ons' folder location to the *File Path* bar, then go to the folder `add_mesh_asset_flinger/assets`
 5. Add that as a bookmark
 6. Export your object there
 
@@ -55,8 +55,10 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
  * *Mac*: **Command+Shift+G**
  * *Linux*: **Ctrl+L**
 6. Paste (**Ctrl+V**) the path to the addons folder and press Enter
-7. Go to folder `/add_mesh_asset_flinger/assets/` and save it to favorites, name it as *"Asset Flinger Objects"*
-8. Go back one folder and then go to folder `/thumbnailer/` and save it to favorites, name it as *"Asset Flinger Thumbnailer"*
+7. Go to folder `add_mesh_asset_flinger` and drag the folder `assets` to your favorites
+8. Go back one folder and then do the same thing for the folder `thumbnailer`
+
+> Note, on Windows and Linux you can rename these bookmarks for example as *"Asset Flinger Objects"* and *"Asset Flinger Thumbnailer"*. However, on a Mac you should leave it as ´assets´, because renaming favorites on Mac also renames the actual location, which in turn breaks the system. 
 
 ##### Changing the path to Thumbnailer :
 > INFO: for the Thumbnailer, default Blender paths are used:
