@@ -46,7 +46,7 @@ for path in paths:
         break
 
 if not os.path.exists(libraryPath):
-	raise NameError('Did not find assets path from ' + libraryPath)
+    raise NameError('Did not find assets path from ' + libraryPath)
 libraryIconsPath = os.path.join(libraryPath, "icons")
 libraryModelsPath = os.path.join(libraryPath, "assets")
 
@@ -102,15 +102,10 @@ def drawMenuItem(item, x, y, width, height):
     blf.size(font_id, textHeight, textWidth)
     blf.draw(font_id, item['text'])
 
-def drawCallbackMenu(self,context):
+def drawCallbackMenu(self, context):
 
     global targetItemWidth
     global targetItemHeight
-
-    #font_id = 0
-    #blf.position(font_id, 0, 0, 0)
-    #blf.size(font_id, 20, 72)
-    #blf.draw(font_id, str(self.mouseX) + ", " + str(self.mouseY))
 
     marginX = 20
     marginY = 5
@@ -137,7 +132,7 @@ def drawCallbackMenu(self,context):
     x = contentX
     y = contentY
 
-    if len(self.activeItem['subItems'] ) == 0:
+    if len(self.current_dir_content ) == 0:
         font_id = 0
         text = "Folder doesn't contain any assets!"
         bgl.glColor4f(1.0, 1.0, 1.0, 1.0)
@@ -145,28 +140,28 @@ def drawCallbackMenu(self,context):
         textWidth, textHeight = blf.dimensions(font_id, text)
         blf.position(font_id, contentX + contentWidth * 0.5 - textWidth * 0.5, contentY - contentHeight * 0.5 + textHeight * 0.5, 0)
         blf.draw(font_id, text)
+    else:
+        for item in self.current_dir_content:
+            if self.mouseX > x and self.mouseX < x + itemWidth and self.mouseY > y and self.mouseY < y + itemHeight:
+                item['highlighted'] = True
+            else:
+                item['highlighted'] = False
 
-    for item in self.activeItem['subItems']:
-        if self.mouseX > x and self.mouseX < x + itemWidth and self.mouseY > y and self.mouseY < y + itemHeight:
-            item['highlighted'] = True
-        else:
-            item['highlighted'] = False
+            drawMenuItem(item, x, y, itemWidth, itemHeight)
+            x = x + itemWidth + paddingX
+            col += 1
 
-        drawMenuItem(item, x, y, itemWidth, itemHeight)
-        x = x + itemWidth + paddingX
-        col += 1
-
-        if col > colCount:
-            col = 0
-            x = contentX
-            y = y - itemHeight - marginY
-            row += 1
+            if col > colCount:
+                col = 0
+                x = contentX
+                y = y - itemHeight - marginY
+                row += 1
 
     bgl.glDisable(bgl.GL_BLEND)
     bgl.glDisable(bgl.GL_TEXTURE_2D)
     #bgl.glColor4f(0.0, 0.0, 0.0, 1.0)
 
-def getClicked(self,context):
+def getClicked(self, context):
 
 
     global targetItemWidth
@@ -192,9 +187,8 @@ def getClicked(self,context):
     x = contentX
     y = contentY
 
-    for item in self.activeItem['subItems']:
+    for item in self.current_dir_content:
         if self.mouseX > x and self.mouseX < x + itemWidth and self.mouseY > y and self.mouseY < y + itemHeight:
-            pprint.pprint(item)
             return item
 
         x = x + itemWidth + paddingX
@@ -206,12 +200,12 @@ def getClicked(self,context):
             row += 1
     return None
 
-
 class AssetFlingerMenu(bpy.types.Operator):
 
     bl_idname = "view3d.asset_flinger"
     bl_label = "Asset Flinger"
-    tree_index = 0
+    tree_index = ''
+    current_dir_content = []
 
     def clearImages(self):
         # Cleaner for Images
@@ -242,9 +236,10 @@ class AssetFlingerMenu(bpy.types.Operator):
                 return {'FINISHED'}
 
             if selected['isFolder'] == True:
-                if selected['text'] == '..':
-                    print('ho')
-                self.activeItem = selected
+
+                self.tree_index = os.path.normpath(os.path.join(self.tree_index, selected['text']))
+                self.browse_assets(self.tree_index)
+
             else:
                 bpy.types.SpaceView3D.draw_handler_remove(self._handle, 'WINDOW')
                 bpy.ops.import_scene.obj(filepath=selected['filename'])
@@ -271,7 +266,7 @@ class AssetFlingerMenu(bpy.types.Operator):
         up_folder['text'] = '..'
         up_folder['isFolder'] = True
         up_folder['subItems'] = []
-        up_folder['index'] = self.tree_index
+        #up_folder['index'] = self.tree_index
         parentItem['subItems'].append(up_folder)
 
 
@@ -289,7 +284,7 @@ class AssetFlingerMenu(bpy.types.Operator):
                 menuItem['subItems'] = []
                 parentItem['subItems'].append(menuItem)
 
-                self.tree_index += 1
+                #self.tree_index += 1
 
                 self.buildAssetTree(menuItem, os.path.join(path, name))
 
@@ -314,6 +309,50 @@ class AssetFlingerMenu(bpy.types.Operator):
 
         #pprint.pprint(parentItem)
 
+    def browse_assets(self, path):
+
+        file_list = [f for f in os.listdir(path) if not f.startswith('.')]
+        file_list.sort()
+        self.current_dir_content = []
+
+        if path != libraryModelsPath:
+            menuItem = {}
+            iconFile = os.path.join(libraryIconsPath, "folder.png")
+            menuItem['icon'] = bpy.data.images.load(filepath = iconFile)
+            self.imageList.append(menuItem['icon'].filepath_raw)
+            menuItem['text'] = '..'
+            menuItem['isFolder'] = True
+            self.current_dir_content.append(menuItem)
+
+        for name in file_list:
+            if os.path.isdir(os.path.join(path, name)):
+                menuItem = {}
+                iconFile = os.path.join(libraryIconsPath, "folder.png")
+                menuItem['icon'] = bpy.data.images.load(filepath = iconFile)
+                self.imageList.append(menuItem['icon'].filepath_raw)
+                menuItem['text'] = name
+                menuItem['isFolder'] = True
+                self.current_dir_content.append(menuItem)
+                self.tree_index = path
+
+        obj_list = [item for item in file_list if item[-3:] == 'obj']
+
+        for name in obj_list:
+            objItem = {}
+
+            iconFile = os.path.join(path, name.replace('obj','png'))
+            if not os.path.exists(iconFile):
+                iconFile = os.path.join(libraryIconsPath, "nothumbnail.png")
+
+            objItem['icon'] = bpy.data.images.load(filepath = iconFile)
+            self.imageList.append(objItem['icon'].filepath_raw)
+            text = os.path.splitext(name)[0]
+            objItem['text'] = text
+            objItem['isFolder'] = False
+            objItem['filename'] = os.path.join(path, name)
+            self.current_dir_content.append(objItem)
+
+
     def __del__(self):
         # print("End")
         self.clearImages()
@@ -321,13 +360,15 @@ class AssetFlingerMenu(bpy.types.Operator):
     def invoke(self, context, event):
         if context.area.type == 'VIEW_3D':
 
+
             self.mouseX = event.mouse_region_x
             self.mouseY = event.mouse_region_y
 
             self.mainItem = {}
-
+            self.current_dir_content = []
             self.imageList = []
             self.buildAssetTree(self.mainItem, libraryModelsPath)
+            self.browse_assets(libraryModelsPath)
 
             self.activeItem = self.mainItem
 
@@ -378,7 +419,6 @@ def register():
     '''
 
     addon_keymaps.append((km, kmi))
-
 
 def unregister():
     bpy.utils.unregister_class(AssetFlingerMenu)
