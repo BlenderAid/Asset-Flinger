@@ -3,7 +3,7 @@
 A Blender Add-on for simple mesh importing/exporting via graphical menu. 
 The Add-on also includes a drag-and-drop thumbnail renderer for .obj files (works on Windows, Mac and Linux).
 
-> Note that there's in development **a *new* very comprehensive Asset Browser for Blender by the Developers of the Blender Foundation**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful for some people.
+> Note that there's in development a **new very comprehensive Asset Browser for Blender by the Developers of the Blender Foundation**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful for some people.
 
 ##Download :
 Here you can download the easily installable Add-on with ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** objects, the Python files in correct directories and some .blend templates for the thumbnailer. All in one package: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
@@ -84,13 +84,14 @@ Asset Flinger has been tested and proved to work on :
 ## Highly Hypothetical Future Development:
 
 #### Feature Ideas (easier to add):
+* Remembering the folder where the user picked the object last time
+* Easy Addon checkbox for the above 'Remember last used folder'
 * Installing the addon automatically adds a bookmark that points to the ‘assets' folder where the objects should be exported
-* Easy GUI option to hide file names in the menu to make it more compact
-* Easy GUI option to choose the amount of columns for the menu to make it more compact (in the code there are already easy parameters for this)
-* Providing 2 choices of the Addon - with the current Normal (128x128) and Small (64x64) sized thumbnails to make it more compact (in the code there are already easy parameters for this) - The Thumbnailer settings would be changed as well.
+* Easy Addon setting to hide file names in the menu to make it more compact
+* Easy Addon setting to choose the amount of columns for the menu to make it more compact. (In the code there are already easy parameters for this)
+* Easy Addon setting to choose between the current Normal (128x128) and Small (64x63) sized thumbnails to allow for more compact view. (In the code there are already easy parameters for this) - OR - if this appears to be hard to realize, then simply providing 2 choices of the Addon with the different sized thumbnails and thumbnail-generation settings
 
 #### Feature Ideas (harder to add):
-* By pressing an up-folder-icon in the GUI user can go up one directory (to the parent directory)
 * Wrapping of text for long file names
 * Scrolling of the thumbnails via mouse wheel
 * Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or hassle with installation at all)
