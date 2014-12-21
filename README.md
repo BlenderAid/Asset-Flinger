@@ -1,6 +1,6 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 # Asset Flinger
-A Blender Add-on for simple mesh importing/exporting via graphical menu. 
+A Blender Add-on for simple mesh importing via graphical menu. 
 The Add-on also includes a drag-and-drop thumbnail renderer for .obj files (works on Windows, Mac and Linux).
 
 > Note that there's in development a **new very comprehensive Asset Browser for Blender by the Developers of the Blender Foundation**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful for some people.
