@@ -42,7 +42,7 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 5. Add that as a bookmark
 6. Export your object there
 
-####Preparing Asset Flinger Thumbnailer
+> #### Installing Python (probably not needed)
 1. Check if you have Python installed by opening up the Terminal 
  * *Windows*: **Win-button+R** and type: `cmd`
  * *Mac*: **Command+space** and type: `terminal`
@@ -50,24 +50,26 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 2. Type: `python`
 3. If it says: `Python [version number]` and a couple of lines of text, then you have Python installed
 4. If not, download **[Python 2.7.9](http://www.python.org)** and install it
-5. Open your operating system's file browser and press
+
+#### Preparing Asset Flinger Thumbnailer
+1. Open your operating system's file browser and press
  * *Windows*: **Alt+D**
  * *Mac*: **Command+Shift+G**
  * *Linux*: **Ctrl+L**
-6. Paste (**Ctrl+V**) the path to the addons folder and press Enter (for Windows you need to use single-backslashes instead of the dual '\\')
-7. Go to folder `add_mesh_asset_flinger` and drag the folder `assets` to your favorites
-8. Go back one folder and then do the same thing for the folder `thumbnailer`
+2. Paste (**Ctrl+V**) the path to the addons folder and press Enter (for Windows you need to use single-backslashes instead of the dual '\\')
+3. Go to folder `add_mesh_asset_flinger` and drag the folder `assets` to your favorites
+4. Go back one folder and then do the same thing for the folder `thumbnailer`
 
 > Note, on Windows and Linux you can rename these bookmarks for example as *"Asset Flinger Objects"* and *"Asset Flinger Thumbnailer"*. However, on a Mac you should leave it as ´assets´, because renaming favorites on Mac also renames the actual location, which in turn breaks the system. 
 
 ##### Changing the path to Thumbnailer :
 > INFO: for the Thumbnailer, default Blender paths are used:
-> * *Windows*: `C:\\Program Files\\Blender Foundation\\Blender\\blender.exe` (Python requires double-backslashes)
+> * *Windows*: `C:\Program Files\Blender Foundation\Blender\blender.exe`
 > * *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
 > * *Linux*: `/usr/bin/blender`
     
 If you need to change the Blender path, navigate to the following file in the addon's folder and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
- * *Windows*: `thumbnailer\Windows\Thumbnailer.py`
+ * *Windows*: `thumbnailer\Windows\Thumbnailer.bat`
  * *Mac*: `thumbnailer/Mac/Thumbnailer.app (right-click>Show Package Contents) /Contents/Resources/thumbnail_maker/config`
  * *Linux*: `thumbnailer/Linux/Thumbnailer.py`
 
