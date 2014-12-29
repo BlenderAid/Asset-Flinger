@@ -38,7 +38,7 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 2. Open the Python Console (**Shift+F4**), paste the following command and press Enter: `bpy.utils.user_resource('SCRIPTS', "addons")`
 3. In the console, you should see the path to the Blender Add-ons folder for your system, copy  (**Ctrl+C**) that to clipboard (without the ' marks)
 4. Export your object by pressing **Ctrl+Shift+Alt+E**
-5. In the Export panel, press **Ctrl+V** to paste the 'Add-ons' folder location to the *File Path* bar, then go to the folder `add_mesh_asset_flinger/assets`
+5. In the Export panel, press **Ctrl+V** to paste the 'Add-ons' folder location to the *File Path* bar, then go to the folder `add_mesh_asset_flinger/assets` (In Windows the path includes double backslashes '\\', but that's okay, the path works anyway.)
 5. Add that as a bookmark
 6. Export your object there
 
@@ -51,10 +51,10 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 3. If it says: `Python [version number]` and a couple of lines of text, then you have Python installed
 4. If not, download **[Python 2.7.9](http://www.python.org)** and install it
 5. Open your operating system's file browser and press
- * *Windows*: **Ctrl+L**
+ * *Windows*: **Alt+D**
  * *Mac*: **Command+Shift+G**
  * *Linux*: **Ctrl+L**
-6. Paste (**Ctrl+V**) the path to the addons folder and press Enter
+6. Paste (**Ctrl+V**) the path to the addons folder and press Enter (for Windows you need to use single-backslashes instead of the dual '\\')
 7. Go to folder `add_mesh_asset_flinger` and drag the folder `assets` to your favorites
 8. Go back one folder and then do the same thing for the folder `thumbnailer`
 
@@ -66,7 +66,7 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 > * *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
 > * *Linux*: `/usr/bin/blender`
     
-If you need to change the Blender path, navigate to the following file in the addon's folder and open it into a text editor, make the change and save:
+If you need to change the Blender path, navigate to the following file in the addon's folder and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
  * *Windows*: `thumbnailer\Windows\Thumbnailer.py`
  * *Mac*: `thumbnailer/Mac/Thumbnailer.app (right-click>Show Package Contents) /Contents/Resources/thumbnail_maker/config`
  * *Linux*: `thumbnailer/Linux/Thumbnailer.py`
