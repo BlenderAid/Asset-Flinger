@@ -64,7 +64,7 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 
 ##### Changing the path to Thumbnailer :
 > INFO: for the Thumbnailer, default Blender paths are used:
-> * *Windows*: `C:\Program Files\Blender Foundation\Blender\blender.exe`
+> * *Windows*: `C:\Program Files\Blender Foundation\Blender\blender-app.exe`
 > * *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
 > * *Linux*: `/usr/bin/blender`
     
