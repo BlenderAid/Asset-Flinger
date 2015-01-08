@@ -1,21 +1,23 @@
-'''
-Copyright (C) 2014 Blender Aid
-http://www.blendearaid.com
-blenderaid@gmail.com
+# ##### BEGIN GPL LICENSE BLOCK #####
+#
+#  Copyright (C) 2014 Blender Aid
+#  http://www.blendearaid.com
+#  blenderaid@gmail.com
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-'''
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+# ##### END GPL LICENSE BLOCK #####
 
 bl_info = {
         "name": "Asset Flinger",
@@ -31,9 +33,33 @@ import blf
 import os
 import pprint
 
+from bpy.types import AddonPreferences
+from bpy.props import (BoolProperty, EnumProperty,
+                       FloatProperty, FloatVectorProperty,
+                       IntProperty, StringProperty)
+
+class AssetFlingerPreferences(AddonPreferences):
+    bl_idname = __name__
+    custom_library_path = StringProperty(
+            name="Your Library",
+            subtype='FILE_PATH',
+            )
+
+    def draw(self, context):
+            layout = self.layout
+
+            split = layout.split(percentage=1)
+
+            col = split.column()
+            sub = col.column(align=True)
+            sub.prop(self, "custom_library_path")
+
+            sub.separator()
+
+
 iconWidth = 128
 iconHeight = 128
-targetItemWidth = 800
+targetItemWidth = 400
 targetItemHeight = 128
 
 # Full path to "\addons\add_mesh_asset_flinger\" -directory
@@ -48,7 +74,7 @@ for path in paths:
 if not os.path.exists(libraryPath):
     raise NameError('Did not find assets path from ' + libraryPath)
 libraryIconsPath = os.path.join(libraryPath, "icons")
-libraryModelsPath = os.path.join(libraryPath, "assets")
+libraryDefaultModelsPath = os.path.join(libraryPath, "assets")
 
 def drawMenuItem(item, x, y, width, height):
     global iconWidth
@@ -256,7 +282,6 @@ class AssetFlingerMenu(bpy.types.Operator):
         return {'RUNNING_MODAL'}
 
     def buildAssetTree(self, parentItem, path):
-
         parentItem['subItems'] = []
 
         up_folder = {}
@@ -311,11 +336,8 @@ class AssetFlingerMenu(bpy.types.Operator):
 
     def browse_assets(self, path):
 
-        file_list = [f for f in os.listdir(path) if not f.startswith('.')]
-        file_list.sort()
-        self.current_dir_content = []
-
-        if path != libraryModelsPath:
+        def up_folder(self):
+            # Create 'up' directory to go to previus dir (if we are not in the)
             menuItem = {}
             iconFile = os.path.join(libraryIconsPath, "folder.png")
             menuItem['icon'] = bpy.data.images.load(filepath = iconFile)
@@ -323,6 +345,30 @@ class AssetFlingerMenu(bpy.types.Operator):
             menuItem['text'] = '..'
             menuItem['isFolder'] = True
             self.current_dir_content.append(menuItem)
+
+
+        user_preferences = bpy.context.user_preferences
+        addon_prefs = user_preferences.addons[__name__].preferences
+
+        file_list = [f for f in os.listdir(path) if not f.startswith('.')]
+        file_list.sort()
+        self.current_dir_content = []
+
+        if path != libraryDefaultModelsPath:
+            if addon_prefs.custom_library_path:
+                if addon_prefs.custom_library_path != os.path.join(path, ''):
+                    up_folder(self)
+            else:
+                up_folder(self)
+        else:
+            if addon_prefs.custom_library_path:
+                menuItem = {}
+                iconFile = os.path.join(libraryIconsPath, "folder.png")
+                menuItem['icon'] = bpy.data.images.load(filepath = iconFile)
+                self.imageList.append(menuItem['icon'].filepath_raw)
+                menuItem['text'] = addon_prefs.custom_library_path
+                menuItem['isFolder'] = True
+                self.current_dir_content.append(menuItem)
 
         for name in file_list:
             if os.path.isdir(os.path.join(path, name)):
@@ -367,8 +413,8 @@ class AssetFlingerMenu(bpy.types.Operator):
             self.mainItem = {}
             self.current_dir_content = []
             self.imageList = []
-            self.buildAssetTree(self.mainItem, libraryModelsPath)
-            self.browse_assets(libraryModelsPath)
+            self.buildAssetTree(self.mainItem, libraryDefaultModelsPath)
+            self.browse_assets(libraryDefaultModelsPath)
 
             self.activeItem = self.mainItem
 
@@ -395,6 +441,7 @@ def menu_draw(self, context):
 def register():
     bpy.utils.register_class(AssetFlingerMenu)
     bpy.types.INFO_MT_mesh_add.append(menu_draw)
+    bpy.utils.register_class(AssetFlingerPreferences)
 
     # handle the keymap
     wm = bpy.context.window_manager
@@ -422,6 +469,7 @@ def register():
 
 def unregister():
     bpy.utils.unregister_class(AssetFlingerMenu)
+    bpy.utils.unregister_class(AssetFlingerPreferences)
 
     # handle the keymap
     for km, kmi in addon_keymaps:
