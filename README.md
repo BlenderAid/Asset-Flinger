@@ -15,13 +15,20 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 #### Video:
 <a href="http://www.the_youtube_link_when_finished" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
 
+## New Features:
+**User library:**
+![User library](http://i.imgur.com/mNprfnZ.png)
+
+**'Go to parent folder' icon**
+![Parent folder](http://i.imgur.com/IqbiM0D.png)
+
 ## Usage :
 
 * Add a mesh asset via shortcut: **Ctrl+Shift+Alt+A**
 * Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
 * Supports subfolders
 * Supports **.obj** file format and **.mtl** materials (object material slots are remembered)
-* For generating the asset thumbnails, user can drag-and-drop **.obj** files to the provided Thumbnailer python file. New instance of Blender will render them in the background.
+* For generating the asset thumbnails, user can drag-and-drop **.obj** files to the provided Thumbnailer python or bat file. New instance of Blender will render them in the background.
 
 ## Installation :
 #### Installing the Add-on :
@@ -87,8 +94,7 @@ Asset Flinger has been tested and proved to work on :
 
 #### Feature Ideas (easier to add):
 * Remembering the folder where the user picked the object last time
-* Easy Addon checkbox for the above 'Remember last used folder'
-* Installing the addon automatically adds a bookmark that points to the ‘assets' folder where the objects should be exported
+* Easy Addon checkbox for the above 'Remember last used asset folder'
 * Easy Addon setting to hide file names in the menu to make it more compact
 * Easy Addon setting to choose the amount of columns for the menu to make it more compact. (In the code there are already easy parameters for this)
 * Easy Addon setting to choose between the current Normal (128x128) and Small (64x63) sized thumbnails to allow for more compact view. (In the code there are already easy parameters for this) - OR - if this appears to be hard to realize, then simply providing 2 choices of the Addon with the different sized thumbnails and thumbnail-generation settings
@@ -96,8 +102,8 @@ Asset Flinger has been tested and proved to work on :
 #### Feature Ideas (harder to add):
 * Wrapping of text for long file names
 * Scrolling of the thumbnails via mouse wheel
-* Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or hassle with installation at all)
-* Automatic .obj export to the 'assets' folder on user command with the same name as the exported object inside Blender. Displaying a confirm/overwrite message
+* Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or setting up the Thumbnailer at all)
 * Support for .blend objects and materials + their thumbnails
 
-
+## Known Bugs:
+* While in the Asset Flinger menu and doing an Alt-Tab to switch programs, and then coming back to Blender, the menu appears to all 3D views. Very annoying.
