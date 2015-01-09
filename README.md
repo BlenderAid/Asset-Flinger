@@ -1,9 +1,9 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 # Asset Flinger
 A Blender Add-on for simple mesh importing via graphical menu. 
-The Add-on also includes a drag-and-drop thumbnail renderer for .obj files (works on Windows, Mac and Linux).
+The Add-on also includes a drag-and-drop thumbnail generator for .obj files (works on Windows, Mac and Linux).
 
-> Note that there's in development a **new very comprehensive Asset Browser for Blender by the Developers of the Blender Foundation**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful for some people.
+> This addon is made as a hobby on free time and mainly intended for the excruciating waiting period until the **new very comprehensive Asset Browser for Blender** is released from the **Developers of the Blender Foundation** as mentioned **[here](http://www.blender.org/press/18-anticipated-blender-development-projects-of-2015/)**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful for some people.
 
 ##Download :
 Here you can download the easily installable Add-on with ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** objects, the Python files in correct directories and some .blend templates for the thumbnailer. All in one package: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
