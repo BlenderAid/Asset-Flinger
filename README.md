@@ -38,16 +38,11 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 4. Navigate to the downloaded .zip file, click Install from File...
 5. enable the Asset Flinger Add-on from the checkbox
 6. Save User Settings
-4. Try it out :) **Ctrl+Shift+Alt+A** opens the Asset Flinger menu in the 3D View
+7. Try it out :) **Ctrl+Shift+Alt+A** opens the Asset Flinger menu in the 3D View
 
-#### Setting up a Blender bookmark :
-1. Make a simple object in Blender
-2. Open the Python Console (**Shift+F4**), paste the following command and press Enter: `bpy.utils.user_resource('SCRIPTS', "addons")`
-3. In the console, you should see the path to the Blender Add-ons folder for your system, copy  (**Ctrl+C**) that to clipboard (without the ' marks)
-4. Export your object by pressing **Ctrl+Shift+Alt+E**
-5. In the Export panel, press **Ctrl+V** to paste the 'Add-ons' folder location to the *File Path* bar, then go to the folder `add_mesh_asset_flinger/assets` (In Windows the path includes double backslashes '\\', but that's okay, the path works anyway.)
-5. Add that as a bookmark
-6. Export your object there
+#### Setting up :
+1. In the Addon panel in Blender's User Preferences, put your own Asset Library location to Asset Flinger Addon's preferences
+2. Next time you export objects with **Ctrl+Shift+Alt+E**, make that location as a bookmark for convenience
 
 > #### Installing Python (probably not needed)
 1. Check if you have Python installed by opening up the Terminal 
@@ -59,23 +54,15 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 4. If not, download **[Python 2.7.9](http://www.python.org)** and install it
 
 #### Preparing Asset Flinger Thumbnailer
-1. Open your operating system's file browser and press
- * *Windows*: **Alt+D**
- * *Mac*: **Command+Shift+G**
- * *Linux*: **Ctrl+L**
-2. Paste (**Ctrl+V**) the path to the addons folder and press Enter (for Windows you need to use single-backslashes instead of the dual '\\')
-3. Go to folder `add_mesh_asset_flinger` and drag the folder `assets` to your favorites
-4. Go back one folder and then do the same thing for the folder `thumbnailer`
+1. Find the Thumbnailer for your system by unzipping Asset Flinger Add-on's .zip file
 
-> Note, on Windows and Linux you can rename these bookmarks for example as *"Asset Flinger Objects"* and *"Asset Flinger Thumbnailer"*. However, on a Mac you should leave it as ´assets´, because renaming favorites on Mac also renames the actual location, which in turn breaks the system. 
-
-##### Changing the path to Thumbnailer :
-> INFO: for the Thumbnailer, default Blender paths are used:
+##### Changing the path to Thumbnailer (If you haven't installed Blender to default location) :
+> INFO: these are the default paths for the Thumbnailer:
 > * *Windows*: `C:\Program Files\Blender Foundation\Blender\blender-app.exe`
 > * *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
 > * *Linux*: `/usr/bin/blender`
     
-If you need to change the Blender path, navigate to the following file in the addon's folder and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
+If you need to change the Blender path, navigate to the following file in the thumbnailer and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
  * *Windows*: `thumbnailer\Windows\Thumbnailer.bat`
  * *Mac*: `thumbnailer/Mac/Thumbnailer.app (right-click>Show Package Contents) /Contents/Resources/thumbnail_maker/config`
  * *Linux*: `thumbnailer/Linux/Thumbnailer.py`
