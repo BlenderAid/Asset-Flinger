@@ -13,7 +13,7 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 #### Screenshot:
 ![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 #### Video:
-<a href="https://www.youtube.com/watch?v=FhpIx_CqWIo" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
+<a href="http://youtu.be/qYYoSTjIOTY" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
 
 ## New Features:
 **User library:**
