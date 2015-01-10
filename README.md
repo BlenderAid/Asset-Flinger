@@ -93,4 +93,5 @@ Asset Flinger has been tested and proved to work on :
 * Support for .blend objects and materials + their thumbnails
 
 ## Known Bugs:
+* When using Your Library, the Asset Flinger menu displys the whole path to your library. Should be only the folder's name
 * While in the Asset Flinger menu and doing an Alt-Tab to switch programs, and then coming back to Blender, the menu appears to all 3D views. Very annoying.
