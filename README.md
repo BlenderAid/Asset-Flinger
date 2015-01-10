@@ -7,6 +7,7 @@ The Add-on also includes a drag-and-drop thumbnail generator for .obj files. (Wo
 
 ##Download :
 Here you can download the easily installable Add-on with ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** objects, the Python files in correct directories and some .blend templates for the thumbnailer. All in one package: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
+> Note to developer: **[Platypus Mac OS X Thumbnailer Droplet source files](http://files.manujarvinen.com/Blender_Aid/platypus_droplet_files.zip)**
 
 ## Demo :
 
