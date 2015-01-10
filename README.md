@@ -36,13 +36,13 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 2. Open Blender
 3. Go to user preferences > Add-ons > Install from File...
 4. Navigate to the downloaded .zip file, click Install from File...
-5. enable the Asset Flinger Add-on from the checkbox
+5. Enable the Asset Flinger Add-on from the checkbox
 6. Save User Settings
 7. Try it out :) **Ctrl+Shift+Alt+A** opens the Asset Flinger menu in the 3D View
 
 #### Setting up :
 1. In the Addon panel in Blender's User Preferences, put your own Asset Library location to Asset Flinger Addon's preferences
-2. Next time you export objects with **Ctrl+Shift+Alt+E**, make that location as a bookmark for convenience
+2. Next time you export objects with **Ctrl+Shift+Alt+E**, make that location as a bookmark for your convenience
 
 > #### Installing Python (probably not needed)
 1. Check if you have Python installed by opening up the Terminal 
@@ -54,7 +54,7 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 4. If not, download **[Python 2.7.9](http://www.python.org)** and install it
 
 #### Preparing Asset Flinger Thumbnailer
-1. Find the Thumbnailer for your system by unzipping Asset Flinger Add-on's .zip file
+1. Find the Thumbnailer for your system by unzipping the Asset Flinger Add-on's .zip file
 
 ##### Changing the path to Thumbnailer (If you haven't installed Blender to default location) :
 > INFO: these are the default paths for the Thumbnailer:
@@ -70,12 +70,12 @@ If you need to change the Blender path, navigate to the following file in the th
 > Note to *Windows* and *Linux* users, if you want to move the Thumbnailer to a different location, move the whole folder because it contains required hidden files. *Mac* users are free to move their single Thumbnailer wherever they want.
 
 #### Finishing up :
-1. Try to drag your .obj from *'Assets'* to the Thumbnailer like shown in the video
+1. Try to drag your .obj from Your Asset Library to the Thumbnailer like shown in the video
 2. Done, everything should work nicely! If not, feel free to contact the Vendor for help :)
 
 Asset Flinger has been tested and proved to work on :
-* Blender 2.70 (Windows 7, MacOS X 10.10 Yosemite, Ubuntu 14.10, Xubuntu 14.10)
-* Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite, Ubuntu 14.10, Xubuntu 14.10) 
+* Blender 2.70 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
+* Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10) 
 
 ## Highly Hypothetical Future Development:
 
