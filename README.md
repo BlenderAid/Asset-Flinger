@@ -74,6 +74,7 @@ If you need to change the Blender path, navigate to the following file in the th
 1. Try to drag your .obj from Your Asset Library to the Thumbnailer like shown in the video
 2. Done, everything should work nicely! If not, feel free to contact the Vendor for help :)
 
+#### Tested :
 Asset Flinger has been tested and proved to work on :
 * Blender 2.70 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
 * Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10) 
@@ -81,11 +82,11 @@ Asset Flinger has been tested and proved to work on :
 ## Highly Hypothetical Future Development:
 
 #### Feature Ideas (easier to add):
-* Remembering the folder where the user picked the object last time
-* Easy Addon checkbox for the above 'Remember last used asset folder'
-* Easy Addon setting to hide file names in the menu to make it more compact
-* Easy Addon setting to choose the amount of columns for the menu to make it more compact. (In the code there are already easy parameters for this)
-* Easy Addon setting to choose between the current Normal (128x128) and Small (64x63) sized thumbnails to allow for more compact view. (In the code there are already easy parameters for this) - OR - if this appears to be hard to realize, then simply providing 2 choices of the Addon with the different sized thumbnails and thumbnail-generation settings
+* Remembering the last used asset folder where the user picked the asset last time
+* Easy Addon preferences checkbox for the above 'Remember last used asset folder'
+* Easy Addon preferences checkbox for hiding the asset file names in the asset menu to make it more compact
+* Easy Addon preferences setting to choose the amount of columns for the asset menu to make it more compact. (In the code there are already easy parameters for this)
+* Easy Addon preferences setting to choose between the current Normal (128x128) and Small (64x64) sized thumbnails to allow for more compact view. (In the code there are already easy parameters for this) - OR - if this appears to be hard to realize, then simply providing 2 choices of the Addon with the different sized thumbnails and thumbnail-generation settings
 
 #### Feature Ideas (harder to add):
 * Wrapping of text for long file names
