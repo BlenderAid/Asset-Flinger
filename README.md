@@ -5,7 +5,7 @@ A Blender Add-on for simple mesh importing via graphical menu. Aimed at 3D model
 The Add-on also includes a drag-and-drop thumbnail generator for .obj files. 
 (Works on Windows, Mac and Linux - However, the Thumbnailer For Mac doesn't work yet :/ But soon it will.) 
 
-> This addon is made as a hobby on free time and mainly intended for the excruciating waiting period until the **new very comprehensive Asset Browser for Blender** is released from the **Developers of the Blender Foundation** as mentioned **[here](http://www.blender.org/press/18-anticipated-blender-development-projects-of-2015/)**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful for some people.
+> This add-on is made as a hobby on free time and mainly intended for the excruciating waiting period until the **new very comprehensive Asset Browser for Blender** is released from the **Developers of the Blender Foundation** as mentioned **[here](http://www.blender.org/press/18-anticipated-blender-development-projects-of-2015/)**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become unneeded. However, until that happens it sure can be fun and useful for some people.
 
 ##Download :
 Here you can download the easily installable Add-on with ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** assets, the Python files in correct directories and some .blend templates for the thumbnailer. All in one package: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
@@ -44,7 +44,7 @@ Here you can download the easily installable Add-on with ready-made ***CC0 / Pub
 7. Try it out :) **Ctrl+Shift+Alt+A** opens the Asset Flinger menu in the 3D View
 
 #### Setting up :
-1. In the Addon panel in Blender's User Preferences, put your own Asset Library location to Asset Flinger Addon's preferences
+1. In the Add-ons panel in Blender's User Preferences, put your own Asset Library location to Asset Flinger Add-on's preferences
 2. Next time you export objects with **Ctrl+Shift+Alt+E**, make that location as a bookmark for your convenience
 
 > #### Installing Python (probably not needed)
@@ -85,10 +85,10 @@ Asset Flinger has been tested and proved to work on :
 
 #### Feature Ideas (easier to add):
 * Remembering the last used asset folder where the user picked the asset last time
-* Easy Addon preferences checkbox for the above 'Remember last used asset folder'
-* Easy Addon preferences checkbox for hiding the asset file names in the asset menu to make it more compact
-* Easy Addon preferences setting to choose the amount of columns for the asset menu to make it more compact. (In the code there are already easy parameters for this)
-* Easy Addon preferences setting to choose between the current Normal (128x128) and Small (64x64) sized thumbnails to allow for more compact view. (In the code there are already easy parameters for this) - OR - if this appears to be hard to realize, then simply providing 2 choices of the Addon with the different sized thumbnails and thumbnail-generation settings
+* Easy Add-on preferences checkbox for the above 'Remember last used asset folder'
+* Easy Add-on preferences checkbox for hiding the asset file names in the asset menu to make it more compact
+* Easy Add-on preferences setting to choose the amount of columns for the asset menu to make it more compact. (In the code there are already easy parameters for this)
+* Easy Add-on preferences setting to choose between the current Normal (128x128) and Small (64x64) sized thumbnails to allow for more compact view. (In the code there are already easy parameters for this) - OR - if this appears to be hard to realize, then simply providing 2 choices of the Add-on with the different sized thumbnails and thumbnail-generation settings
 
 #### Feature Ideas (harder to add):
 * Wrapping of text for long file names
