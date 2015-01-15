@@ -1,13 +1,15 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 # Asset Flinger
-A Blender Add-on for simple mesh importing via graphical menu. Aimed at 3D modellers who constantly use pre-made 3D assets for building their highly detailed creations.
+Asset Flinger is a Blender Add-on for simple mesh importing via graphical menu. 
+It's aimed at 3D modellers who constantly use pre-made 3D assets for building their highly detailed creations.
 
 The Add-on also includes a drag-and-drop thumbnail generator for .obj files. 
 (Works on Windows, Mac and Linux - However, the Thumbnailer For Mac doesn't work yet :/ But soon it will.) 
 
-> This add-on was made possible by the efforts of 3 anonymous programmers on their free time. The project started **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** but was active only partly over the time. However, now the project has activated again just in time for the **[Blender Market's Add-on Contest](http://cgcookiemarkets.com/blender/contest-blender-add-on/)** and the result seems to be a nice little tool to quench the thirst a little bit for the excruciating waiting period until the **new very comprehensive Asset Browser for Blender** is released from the **Developers of the Blender Foundation** as mentioned **[here](http://www.blender.org/press/18-anticipated-blender-development-projects-of-2015/)**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become utterly unneeded. However, until that happens it sure can be fun and useful for some people.
+## About :
+This add-on was made possible by the efforts of a promoter/3D modeler and 3 anonymous programmers on their free time. The project started **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** but was active only partly over time. However, now the project has activated again just in time for the **[Blender Market's Add-on Contest](http://cgcookiemarkets.com/blender/contest-blender-add-on/)** and the result seems to be a nice little tool to quench the thirst a little bit for the excruciating waiting period until the **new very comprehensive Asset Browser for Blender** is released from the **Developers of the Blender Foundation** as mentioned **[here](http://www.blender.org/press/18-anticipated-blender-development-projects-of-2015/)**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and other Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become utterly unneeded. However, until that happens it sure can be fun and useful for some people.
 
-##Download :
+## Download :
 Here you can download the easily installable Add-on with ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** assets, the Python files in correct directories and some .blend templates for the thumbnailer. All in one package: **[Blender Aid Asset Flinger Add-on v0.1](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
 > Note to developer: **[Platypus Mac OS X Thumbnailer Droplet source files](http://files.manujarvinen.com/Blender_Aid/platypus_droplet_files.zip)**
 
