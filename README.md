@@ -8,10 +8,10 @@ The Add-on also includes a drag-and-drop thumbnail generator for .obj files.
 
 ## Demo :
 
-#### Screenshot:
-![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 #### Video:
 <a href="http://youtu.be/qYYoSTjIOTY" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
+#### Screenshot:
+![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 
 ## About :
 This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. However, now the project has activated again just in time for the **[Blender Market's Add-on Contest](http://cgcookiemarkets.com/blender/contest-blender-add-on/)**. (Update: **[The contest results are announced](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**, thanks for the Honorable Mention! :) The result of the efforts seem to be a nice little tool to quench the thirst a little bit for the **excruciating waiting period** until the new very comprehensive Asset Browser for Blender is released from the Developers of the Blender Foundation as mentioned **[here](http://www.blender.org/press/18-anticipated-blender-development-projects-of-2015/)**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and **[other](https://mont29.wordpress.com/2015/01/14/assets-filebrowser-preliminary-work-experimental-build-i/)** Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become utterly unneeded. However, until that happens it sure can be fun and useful for some people.
