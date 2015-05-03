@@ -61,7 +61,7 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 > * *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
 > * *Linux*: `/usr/bin/blender`
 
-3. Navigate to the following file and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
+3 . Navigate to the following file and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
  * *Windows*: `thumbnailer\Windows\Thumbnailer.bat`
  * *Mac*: `thumbnailer/Mac/Thumbnailer.app (right-click>Show Package Contents) /Contents/Resources/thumbnail_maker/config`
  * *Linux*: `thumbnailer/Linux/Thumbnailer.py`
