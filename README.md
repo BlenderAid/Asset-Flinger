@@ -35,7 +35,7 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 * Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
 * Supports subfolders
 * Supports **.obj** file format and **.mtl** materials (object material slots are remembered)
-* For generating the asset thumbnails, user can drag-and-drop **.obj** files to the provided Thumbnailer python or bat file. New instance of Blender will render them in the background.
+* For generating the asset thumbnails (doesn't work in Mac OS X yet), user can drag-and-drop **.obj** files to the provided Thumbnailer python or bat file. New instance of Blender will render them in the background.
 
 # Installation
 #### Installing the Add-on :
