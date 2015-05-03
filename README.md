@@ -47,11 +47,12 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 6. Save User Settings
 7. Try it out :) **Ctrl+Shift+Alt+A** opens the Asset Flinger menu in the 3D View
 
-#### Setting up :
+#### Setting up library location for your own assets:
 1. In the Add-ons panel in Blender's User Preferences, put your own Asset Library location to Asset Flinger Add-on's preferences
-2. Next time you export objects with **Ctrl+Shift+Alt+E**, make that location as a bookmark for your convenience
+2. Export your 3D models to the library with **Ctrl+Shift+Alt+E**
+3. Make that location as a bookmark for your convenience
 
-#### Preparing Asset Flinger Thumbnailer
+#### Preparing Asset Flinger Thumbnailer (Sadly, quite loborious :/ )
 1. Find the Thumbnailer for your system by unzipping the Asset Flinger Add-on's .zip file
 
 ##### Changing the path to Thumbnailer (If you haven't installed Blender to default location) :
