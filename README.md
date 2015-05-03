@@ -52,25 +52,25 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 2. Export your 3D models to the library with **Ctrl+Shift+Alt+E**
 3. Make that location as a bookmark for your convenience
 
-#### Preparing Asset Flinger Thumbnailer (Sadly, quite loborious :/ )
-1. Find the Thumbnailer for your system by unzipping the Asset Flinger Add-on's .zip file
+#### Preparing Asset Flinger Thumbnailer
+1 . Unzip the Asset Flinger Add-on's .zip file and find the Thumbnailer folder for your system
 
-##### Changing the path to Thumbnailer (If you haven't installed Blender to default location) :
+2 . If you have installed Blender to default location, skip to step 4
 > INFO: these are the default paths for the Thumbnailer:
 > * *Windows*: `C:\Program Files\Blender Foundation\Blender\blender-app.exe`
 > * *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
 > * *Linux*: `/usr/bin/blender`
 
-If you need to change the Blender path, navigate to the following file in the thumbnailer and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
+3 . In the Thumbnailer file, change the path to where your Blender is located
+- navigate to the following file in the thumbnailer and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
  * *Windows*: `thumbnailer\Windows\Thumbnailer.bat`
  * *Mac*: `thumbnailer/Mac/Thumbnailer.app (right-click>Show Package Contents) /Contents/Resources/thumbnail_maker/config`
  * *Linux*: `thumbnailer/Linux/Thumbnailer.py`
-
 > Note to *Windows* and *Linux* users, if you want to move the Thumbnailer to a different location, move the whole folder because it contains required hidden files. *Mac* users are free to move their single Thumbnailer wherever they want.
 
-#### Finishing up :
-1. Try to drag your .obj from Your Asset Library to the Thumbnailer like shown in the video
-2. Done, everything should work nicely!
+4 . Try to drag your .obj from Your Asset Library to the Thumbnailer like shown in the video
+
+5 . Done, everything should work nicely!
 
 #### Tested :
 Asset Flinger has been tested and proved to work on :
