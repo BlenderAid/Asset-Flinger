@@ -1,9 +1,0 @@
-import os, sys
-import bpy
-module_folder = os.path.realpath(os.path.split(bpy.data.filepath)[0])
-if module_folder not in sys.path:
-    sys.path.insert(0, module_folder)
-
-import generator
-
-generator.generate()
