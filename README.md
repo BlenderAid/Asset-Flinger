@@ -52,7 +52,7 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 2. Export your 3D models to the library with **Ctrl+Shift+Alt+E**
 3. Make that location as a bookmark for your convenience
 
-#### Preparing Asset Flinger Thumbnailer (sadly, quite loborious :/ )
+#### Preparing Asset Flinger Thumbnailer (sadly, quite loborious :/ - Also, doesn't work in Mac OS X yet)
 1 . Unzip the Asset Flinger Add-on's .zip file and find the Thumbnailer folder for your system
 
 2 . If you have installed Blender to default location, skip to step 5
