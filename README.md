@@ -70,7 +70,9 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 
 > Note to *Windows* and *Linux* users, if you want to move the Thumbnailer to a different location, move the whole folder because it contains required hidden files. *Mac* users are free to move their single Thumbnailer wherever they want.
 
-5 . Try to drag your .obj from Your Asset Library to the Thumbnailer like shown in the video
+5 . Try to drag your .obj from Your Asset Library to the Thumbnailer like shown in the video. A nice thumbnail should be rendered.
+
+> In Linux, if you can't drag the .obj on top of the .py file, you might need to right-click the .py-file and make it executable
 
 6 . Done, everything should work nicely!
 
