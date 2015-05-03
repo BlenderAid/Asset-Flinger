@@ -4,16 +4,17 @@ Asset Flinger is a **Free Blender Add-on for simple mesh importing via graphical
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
 
 The Add-on also includes a drag-and-drop thumbnail generator for .obj files.
-(Works on Windows, Mac and Linux - Note, however, that **the Thumbnailer For Mac doesn't work.**)
+(Works on Windows, Mac and Linux - Note, however, that **the Thumbnailer For Mac doesn't work.** **[Find here](http://files.manujarvinen.com/Blender_Aid/)** the development files that almost worked)
 
-This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. There was some inspiration to develop it for the **[Blender Market's Add-on Contest](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**, thanks for the Honorable Mention!
+This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. There was some inspiration to develop it for the **[Blender Market's Add-on Contest](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**. Thanks to Blender Market for the Honorable Mention! One idea was to put it on sale to there, actually. - However, it's not polished enough in order to be sold. 
 
-Original idea was to put it on sale. - However, it's not polished enough in order to be sold. So it was released as a free add-on. Feel free to fork & rebrand it if you like. Although, contributions as pull requests to the project would be highly appreciated :)
+So it is now released as a free add-on. Feel free to fork it if you like. 
+Although, **contributions as pull requests** to the project would be highly appreciated :)
 
 
 ## Download :
 Download the easily installable Add-on with some ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** assets here:
-[Blender_Aid_Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)
+**[Blender_Aid_Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
 
 ## Demo :
 
@@ -21,13 +22,6 @@ Download the easily installable Add-on with some ready-made ***CC0 / Public Doma
 <a href="http://youtu.be/qYYoSTjIOTY" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
 #### Screenshot:
 ![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
-
-## New Features:
-**User library:**
-![User library](http://i.imgur.com/mNprfnZ.png)
-
-**'Go to parent folder' icon**
-![Parent folder](http://i.imgur.com/IqbiM0D.png)
 
 ## Usage :
 
@@ -69,7 +63,7 @@ If you need to change the Blender path, navigate to the following file in the th
 
 #### Finishing up :
 1. Try to drag your .obj from Your Asset Library to the Thumbnailer like shown in the video
-2. Done, everything should work nicely! If not, feel free to contact the Vendor for help :)
+2. Done, everything should work nicely!
 
 #### Tested :
 Asset Flinger has been tested and proved to work on :
