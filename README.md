@@ -1,6 +1,6 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 # Asset Flinger
-Asset Flinger is a Blender Add-on for simple mesh importing via graphical menu.
+Asset Flinger is a **Free Blender Add-on for simple mesh importing via graphical menu**.
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
 
 The Add-on also includes a drag-and-drop thumbnail generator for .obj files.
@@ -8,7 +8,7 @@ The Add-on also includes a drag-and-drop thumbnail generator for .obj files.
 
 This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. There was some inspiration to develop it for the **[Blender Market's Add-on Contest](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**, thanks for the Honorable Mention!
 
-However, it's not polished enough in order to be sold. So now it's **released as a free add-on**. Feel free to fork & rebrand if you like. Although, contributions as pull requests to the project would be highly appreciated :)
+Original idea was to put it on sale. - However, it's not polished enough in order to be sold. So it was released as a free add-on. Feel free to fork & rebrand it if you like. Although, contributions as pull requests to the project would be highly appreciated :)
 
 
 ## Download :
