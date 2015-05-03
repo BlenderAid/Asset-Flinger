@@ -72,7 +72,7 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 
 5 . Try to drag your .obj from Your Asset Library to the Thumbnailer like shown in the video. A nice thumbnail should be rendered.
 
-> In Linux, if you can't drag the .obj on top of the .py file, you might need to right-click the .py-file and make it executable
+> In Linux, at least Thunar file manager supports Drag&Drop, you may need to install it. Also, you might need to right-click the .py-file and make it executable in order to allow Drag&Drop
 
 6 . Done, everything should work nicely!
 
