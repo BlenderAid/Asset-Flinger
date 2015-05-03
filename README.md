@@ -20,7 +20,7 @@ Although, **contributions as pull requests** to the project would be highly appr
 # Download
 Download the easily installable Add-on with some ready-made ***CC-0 / Public Domain / 100%-free-for-commercial-use*** assets here:
 
-- **[Blender_Aid_Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.1.zip)**
+- **[Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.1.zip)**
 
 # Demo
 
