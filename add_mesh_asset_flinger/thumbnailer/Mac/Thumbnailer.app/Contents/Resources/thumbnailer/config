@@ -1,0 +1,8 @@
+{
+  "blender_path" : "/Applications/Blender/blender.app/Contents/MacOS/blender",
+  "render_settings" : {
+    "samples" : 300,
+    "res_x" : 128,
+    "res_y" : 128
+  }
+}
