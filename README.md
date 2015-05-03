@@ -13,7 +13,9 @@ The Add-on also includes a drag-and-drop thumbnail generator for .obj files.
 It is now released as a free add-on. Feel free to fork it if you like. 
 Although, **contributions as pull requests** to the project would be highly appreciated :) 
 
-I, Manu, personally like to use it every day, regardless of its shortcomings :) And I plan to keep making and adding more CC-0 assets into it. 
+> Also CC-0 licenced .obj assets would be accepted as contributions, and I plan to keep making and adding more of them - I'm very picky about their quality, though. Personally I like to use Asset Flinger for my daily modeling, regardless of its shortcomings :) 
+
+> — Manu Järvinen
 
 ## Download :
 Download the easily installable Add-on with some ready-made ***CC-0 / Public Domain / 100%-free-for-commercial-use*** assets here:
