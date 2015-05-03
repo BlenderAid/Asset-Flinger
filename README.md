@@ -98,5 +98,5 @@ Asset Flinger has been tested and proved to work on :
 
 # Known Bugs
 * When using *Your Library*, the Asset Flinger menu displays the whole path to your library. Should be only the folder's name
-* When you set up a wrong path for *Your Library* in the add-on's Preferences, you get an error message and the 3D view goes a little darker and doesn't go away until you restart whole Blender
+* When you set up a wrong path for *Your Library* in the add-on's Preferences, you get an error message when using the custom path in the add-on in 3D view. Also, the 3D view goes a little darker and doesn't go away until you restart whole Blender
 * While in the Asset Flinger menu and doing an Alt-Tab to switch programs, and then coming back to Blender, the menu appears to all open 3D views. Very annoying.
