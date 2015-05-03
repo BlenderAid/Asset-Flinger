@@ -1,14 +1,15 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 # Asset Flinger
-Asset Flinger is a Blender Add-on for simple mesh importing via graphical menu. 
+Asset Flinger is a Blender Add-on for simple mesh importing via graphical menu.
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
 
-The Add-on also includes a drag-and-drop thumbnail generator for .obj files. 
-(Works on Windows, Mac and Linux - However, the Thumbnailer For Mac doesn't work.) 
+The Add-on also includes a drag-and-drop thumbnail generator for .obj files.
+(Works on Windows, Mac and Linux - However, the Thumbnailer For Mac doesn't work.)
 
 This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. There was some inspiration to develop it for the **[Blender Market's Add-on Contest](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**, thanks for the Honorable Mention!
 
-However, it's not polished enough in order to be sold. So now it's **released as a free add-on**. Contributions to the project would be highly appreciated :)
+However, it's not polished enough in order to be sold. So now it's **released as a free add-on**. Feel free to fork & rebrand if you like. Although, contributions as pull requests to the project would be highly appreciated :)
+
 
 ## Download :
 Download the easily installable Add-on with some ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** assets here:
@@ -58,7 +59,7 @@ Download the easily installable Add-on with some ready-made ***CC0 / Public Doma
 > * *Windows*: `C:\Program Files\Blender Foundation\Blender\blender-app.exe`
 > * *Mac*: `/Applications/Blender/blender.app/Contents/MacOS/blender`
 > * *Linux*: `/usr/bin/blender`
-    
+
 If you need to change the Blender path, navigate to the following file in the thumbnailer and open it into a text editor (in Windows Wordpad is recommended), make the change and save:
  * *Windows*: `thumbnailer\Windows\Thumbnailer.bat`
  * *Mac*: `thumbnailer/Mac/Thumbnailer.app (right-click>Show Package Contents) /Contents/Resources/thumbnail_maker/config`
@@ -73,7 +74,7 @@ If you need to change the Blender path, navigate to the following file in the th
 #### Tested :
 Asset Flinger has been tested and proved to work on :
 * Blender 2.70 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
-* Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10) 
+* Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
 
 ## Feature Ideas:
 
