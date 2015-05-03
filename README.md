@@ -86,9 +86,9 @@ Asset Flinger has been tested and proved to work on :
 * Easy Add-on preferences setting to choose between the current Normal (128x128) and Small (64x64) sized thumbnails to allow for more compact view. (In the code there are already easy parameters for this) - OR - if this appears to be hard to realize, then simply providing 2 choices of the Add-on with the different sized thumbnails and thumbnail-generation settings
 
 #### Harder to add:
+* **Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or setting up the Thumbnailer at all)**
 * Wrapping of text for long file names
 * Scrolling of the thumbnails via mouse wheel
-* **Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or setting up the Thumbnailer at all)**
 * Support for .blend objects and materials + their thumbnails
 
 # Known Bugs
