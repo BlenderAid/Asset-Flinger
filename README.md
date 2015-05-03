@@ -29,7 +29,7 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 #### Screenshot:
 ![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 
-## Usage :
+# Usage
 
 * Add a mesh asset via shortcut: **Ctrl+Shift+Alt+A**
 * Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
