@@ -1,19 +1,18 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 # Asset Flinger
-Asset Flinger is a **Free Blender Add-on for simple mesh importing via graphical menu**.
+Asset Flinger is a work-in-progress **Free Blender Add-on for simple mesh importing via graphical menu**.
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
 
-The Add-on also includes a drag-and-drop thumbnail generator for .obj files.
-(Works on Windows, Mac and Linux - Note, however, that **the Thumbnailer For Mac doesn't work.** **[Find here](http://files.manujarvinen.com/Asset_Flinger/)** the development files that almost worked)
+The Add-on also includes a drag-and-drop thumbnail generator for .obj files for Windows and Linux. (Although it should be eventually quite easy to generate the thumbnails inside blender) **[Find here](http://files.manujarvinen.com/Asset_Flinger/)** the development files for Mac OS X that almost worked)
 
 > **Some history:**
 
-> This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. There was some inspiration to develop it for the **[Blender Market's Add-on Contest](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**. Thanks to Blender Market for the Honorable Mention! One idea was to put it on sale to there, actually. - However, it was never finished and so it's not polished enough in order to be put on sale. 
+> This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. There was some inspiration to develop it for the **[Blender Market's Add-on Contest](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**. Thanks to Blender Market for the Honorable Mention! One idea was to actually put it on sale to there. - However, the add-on never got finished and so it's not polished enough in order to be put on sale. Also, **[the new extensive asset management system for Blender](https://mont29.wordpress.com/2015/01/14/assets-filebrowser-preliminary-work-experimental-build-i/)** is slowly coming, so there's no sense to keep this behind curtains any longer anyway.
 
 It is now released as a free add-on. Feel free to fork it if you like. 
 Although, **contributions as pull requests** to the project would be highly appreciated :) 
 
-> Also CC-0 licenced .obj assets would be accepted as contributions, and I plan to keep making and adding more of them - I'm very picky about their quality, though. Personally I like to use Asset Flinger for my daily modeling, regardless of its shortcomings :) 
+> Also CC-0 licenced .obj assets would be gladly accepted as contributions, and I plan on making and adding more of them - I'm very picky about their quality, though. Personally I like to use Asset Flinger for my daily modeling, regardless of its shortcomings :) 
 
 > — Manu Järvinen
 
