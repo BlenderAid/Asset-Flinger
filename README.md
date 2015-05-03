@@ -17,11 +17,12 @@ Although, **contributions as pull requests** to the project would be highly appr
 
 > — Manu Järvinen
 
-## Download :
+# Download
 Download the easily installable Add-on with some ready-made ***CC-0 / Public Domain / 100%-free-for-commercial-use*** assets here:
-**[Blender_Aid_Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
 
-## Demo :
+- **[Blender_Aid_Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)**
+
+# Demo
 
 #### Video:
 <a href="http://youtu.be/qYYoSTjIOTY" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
@@ -36,7 +37,7 @@ Download the easily installable Add-on with some ready-made ***CC-0 / Public Dom
 * Supports **.obj** file format and **.mtl** materials (object material slots are remembered)
 * For generating the asset thumbnails, user can drag-and-drop **.obj** files to the provided Thumbnailer python or bat file. New instance of Blender will render them in the background.
 
-## Installation :
+# Installation
 #### Installing the Add-on :
 1. Download the package
 2. Open Blender
@@ -75,7 +76,7 @@ Asset Flinger has been tested and proved to work on :
 * Blender 2.70 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
 * Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
 
-## Feature Ideas:
+# Feature Ideas
 
 #### Easier to add:
 * Remembering the last used asset folder where the user picked the asset last time
@@ -90,6 +91,6 @@ Asset Flinger has been tested and proved to work on :
 * **Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or setting up the Thumbnailer at all)**
 * Support for .blend objects and materials + their thumbnails
 
-## Known Bugs:
+# Known Bugs
 * When using *Your Own Library*, the Asset Flinger menu displays the whole path to your library. Should be only the folder's name
-* While in the Asset Flinger menu and doing an Alt-Tab to switch programs, and then coming back to Blender, the menu appears to all 3D views. Very annoying.
+* While in the Asset Flinger menu and doing an Alt-Tab to switch programs, and then coming back to Blender, the menu appears to all open 3D views. Very annoying.
