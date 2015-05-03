@@ -4,7 +4,11 @@ Asset Flinger is a Blender Add-on for simple mesh importing via graphical menu.
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
 
 The Add-on also includes a drag-and-drop thumbnail generator for .obj files. 
-(Works on Windows, Mac and Linux - However, the Thumbnailer For Mac doesn't work yet :/ But soon it will.) 
+(Works on Windows, Mac and Linux - However, the Thumbnailer For Mac doesn't work.) 
+
+## Download :
+Download the easily installable Add-on with some ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** assets here:
+[Blender_Aid_Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Blender_Aid/Blender_Aid_Asset_Flinger_Add-on_v0.1.zip)
 
 ## Demo :
 
@@ -14,11 +18,9 @@ The Add-on also includes a drag-and-drop thumbnail generator for .obj files.
 ![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 
 ## About :
-This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. However, now the project has activated again just in time for the **[Blender Market's Add-on Contest](http://cgcookiemarkets.com/blender/contest-blender-add-on/)**. (Update: **[The contest results are announced](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**, thanks for the Honorable Mention! :) The result of the efforts seem to be a nice little tool to quench the thirst a little bit for the **excruciating waiting period** until the new very comprehensive Asset Browser for Blender is released from the Developers of the Blender Foundation as mentioned **[here](http://www.blender.org/press/18-anticipated-blender-development-projects-of-2015/)**. Keep following the **[Gooseberry blog](http://gooseberry.blender.org)** and **[other](https://mont29.wordpress.com/2015/01/14/assets-filebrowser-preliminary-work-experimental-build-i/)** Blender Development related channels in order to stay up to date on how it's progressing. That being said, Asset Flinger will probably eventually become utterly unneeded. However, until that happens it sure can be fun and useful for some people.
+This add-on was made possible by the efforts of a 3D modeler and 3 anonymous programmers on their personal free time. The project started a long time ago **[back in 2013](http://blenderartists.org/forum/showthread.php?293731-OBJ-Asset-Library-Addon)** and was active only partly over time. There was some inspiration to develop it for the **[Blender Market's Add-on Contest](http://community.cgcookie.com/t/blender-add-on-contest-winners-announced/392)**, thanks for the Honorable Mention! :) 
 
-## Download from Blender Market (coming soon!) :
-Soon you can download the easily installable Add-on with ready-made ***CC0 / Public Domain / 100%-free-for-commercial-use*** assets, the Python files in correct directories and some .blend templates for the thumbnailer. But first, there is a little bit of work and intense stress testing needed to be done to make it work smoothly on all operating systems.  
-So, coming soon! :)
+However, it's not polished enough to be sold. So it's now released as a free add-on. Contributions to the project would be highly appreciated.
 
 ## New Features:
 **User library:**
@@ -49,15 +51,6 @@ So, coming soon! :)
 1. In the Add-ons panel in Blender's User Preferences, put your own Asset Library location to Asset Flinger Add-on's preferences
 2. Next time you export objects with **Ctrl+Shift+Alt+E**, make that location as a bookmark for your convenience
 
-> #### Installing Python (probably not needed)
-1. Check if you have Python installed by opening up the Terminal 
- * *Windows*: **Win-button+R** and type: `cmd`
- * *Mac*: **Command+space** and type: `terminal`
- * *Linux*: **Ctrl+Alt+T**
-2. Type: `python`
-3. If it says: `Python [version number]` and a couple of lines of text, then you have Python installed
-4. If not, download **[Python 2.7.9](http://www.python.org)** and install it
-
 #### Preparing Asset Flinger Thumbnailer
 1. Find the Thumbnailer for your system by unzipping the Asset Flinger Add-on's .zip file
 
@@ -83,19 +76,19 @@ Asset Flinger has been tested and proved to work on :
 * Blender 2.70 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
 * Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10) 
 
-## Highly Hypothetical Future Development:
+## Feature Ideas:
 
-#### Feature Ideas (easier to add):
+#### Easier to add:
 * Remembering the last used asset folder where the user picked the asset last time
 * Easy Add-on preferences checkbox for the above 'Remember last used asset folder'
 * Easy Add-on preferences checkbox for hiding the asset file names in the asset menu to make it more compact
 * Easy Add-on preferences setting to choose the amount of columns for the asset menu to make it more compact. (In the code there are already easy parameters for this)
 * Easy Add-on preferences setting to choose between the current Normal (128x128) and Small (64x64) sized thumbnails to allow for more compact view. (In the code there are already easy parameters for this) - OR - if this appears to be hard to realize, then simply providing 2 choices of the Add-on with the different sized thumbnails and thumbnail-generation settings
 
-#### Feature Ideas (harder to add):
+#### Harder to add:
 * Wrapping of text for long file names
 * Scrolling of the thumbnails via mouse wheel
-* Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or setting up the Thumbnailer at all)
+* **Instant and Automatic thumbnail rendering for exported objects (no need to leave Blender or setting up the Thumbnailer at all)**
 * Support for .blend objects and materials + their thumbnails
 
 ## Known Bugs:
