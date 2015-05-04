@@ -1,4 +1,13 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
+
+# Download
+Download the easily installable Blender Add-on here:
+
+**[Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.1.zip)**
+
+> - It includes some nice ready-made ***CC-0 / Public Domain / 100%-free-for-commercial-use*** assets.
+> - **[Click here](https://github.com/BlenderAid/Asset-Flinger#installation)** for the installation instructions.
+
 # Asset Flinger
 Asset Flinger is a work-in-progress **Free Blender Add-on for simple mesh importing via graphical menu**.
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
@@ -15,11 +24,6 @@ Although, **contributions as pull requests** to the project would be highly appr
 > Also CC-0 licenced .obj assets would be gladly accepted as contributions, and I plan on making and adding more of them - I'm very picky about their quality, though. Personally I like to use Asset Flinger for my daily modeling, regardless of its shortcomings :) 
 
 > — Manu Järvinen
-
-# Download
-Download the easily installable Add-on with some ready-made ***CC-0 / Public Domain / 100%-free-for-commercial-use*** assets here:
-
-- **[Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.1.zip)**
 
 # Demo
 
