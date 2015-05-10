@@ -1,7 +1,6 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 
 # Download
-Download the easily installable Blender Add-on here:
 
 **[Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.1.zip)**
 
