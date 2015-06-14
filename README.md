@@ -84,6 +84,7 @@ Asset Flinger has been tested and proved to work on :
 * Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
 
 # Known Bugs / Issues
+* Doesn't work in Local View (isolation mode)
 * When using *Your Library*, the Asset Flinger menu displays the whole path to your library. Should be only the folder's name
 * When Tool Shelf (T) or Properties (N) panel is open in 3D view, you can't toggle them off after you've launched the Asset Flinger menu
 * When you set up a wrong path for *Your Library* in the add-on's Preferences, you get an error message when using the custom path in the add-on in 3D view. Also, the 3D view goes a little darker and doesn't go away until you restart whole Blender
