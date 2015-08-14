@@ -14,6 +14,9 @@
 #### Screenshot:
 ![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 
+#### GIF animation about using the Thumbnailer (Windows):
+<a href="http://i.imgur.com/cbulKFh.gif" target="_blank">![Gif](http://i.imgur.com/cbulKFh.gif)</a>
+
 # Asset Flinger
 Asset Flinger is a work-in-progress **Free Blender Add-on for simple mesh importing via graphical menu**.
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
