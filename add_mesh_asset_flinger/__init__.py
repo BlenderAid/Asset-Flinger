@@ -102,7 +102,7 @@ def drawMenuItem(item, x, y, width, height):
 
     #------ TEXTURE ---------#
     bgl.glEnable(bgl.GL_BLEND)
-    bgl.glBindTexture(bgl.GL_TEXTURE_2D, texture.bindcode)
+    bgl.glBindTexture(bgl.GL_TEXTURE_2D, texture.bindcode[0])
     bgl.glTexParameteri(bgl.GL_TEXTURE_2D, bgl.GL_TEXTURE_MIN_FILTER, bgl.GL_NEAREST)
     bgl.glTexParameteri(bgl.GL_TEXTURE_2D, bgl.GL_TEXTURE_MAG_FILTER, bgl.GL_NEAREST) #GL_LINEAR seems to be used in Blender for background images
     bgl.glEnable(bgl.GL_TEXTURE_2D)
