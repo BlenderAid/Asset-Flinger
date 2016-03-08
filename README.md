@@ -2,8 +2,9 @@
 
 # Download
 
-**[Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.1.zip)**
+**[Asset_Flinger_Add-on_v0.2.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.2.zip)**
 
+- Tested and works on Blender 2.77
 - **[Installation instructions](https://github.com/BlenderAid/Asset-Flinger#installation)**
 - Includes some nice ready-made ***CC-0 / Public Domain / 100%-free-for-commercial-use*** assets. They can be downloaded from **[here](http://blenderaid.com/asset_library)** as well.
 
