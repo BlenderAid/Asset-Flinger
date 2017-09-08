@@ -4,14 +4,13 @@
 
 **[Asset_Flinger_Add-on_v0.3.zip](https://github.com/black-h0bB1T/Asset-Flinger/blob/master/releases/Asset_Flinger_Add-on_v0.3.zip?raw=true)** (Blender 2.78c)
 
-**[Asset_Pack v0.1.zip](http://files.manujarvinen.com/asset_pack_v0.1.zip)**
+**[Asset_Pack v0.1.zip (CC-0, Public Domain)](http://files.manujarvinen.com/asset_pack_v0.1.zip)**
 
 **[Asset_Flinger_Add-on_v0.2.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.2.zip)** (Blender 2.77)
 
 **[Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.1.zip)** (Blender 2.76 or lower)
 
 - **[Installation instructions](https://github.com/BlenderAid/Asset-Flinger#installation)**
-- Includes some nice ready-made ***CC-0 / Public Domain / 100%-free-for-commercial-use*** assets. They can be downloaded from **[here](http://blenderaid.com/asset_library)** as well.
 
 # Usage
 
@@ -19,7 +18,7 @@
 * Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
 * Add a mesh asset via shortcut: **Ctrl+Shift+Alt+A**
 * Supports subfolders
-* If you want, **download the Asset Pack and unzip it** to the asset folder to have a nice collection of free CC-0 public domain licensed useful assets, like nuts and bolts and many others.
+* If you want, **download the Asset Pack and unzip it** to the asset folder to have a nice collection of ***CC-0 / Public Domain / 100%-free-for-commercial-use*** useful assets, like nuts and bolts and many others. They can be downloaded from **[here](http://blenderaid.com/asset_library)** as well.
 
 # Demo
 
