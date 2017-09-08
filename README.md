@@ -4,7 +4,7 @@
 
 **[Asset_Flinger_Add-on_v0.3.zip](https://github.com/black-h0bB1T/Asset-Flinger/blob/master/releases/Asset_Flinger_Add-on_v0.3.zip?raw=true)** (Blender 2.78c)
 
-**[Asset_Pack v0.1.zip (CC-0, Public Domain)](http://files.manujarvinen.com/asset_pack_v0.1.zip)**
+**[Asset_Pack_v0.1.zip (CC-0, Public Domain)](http://files.manujarvinen.com/asset_pack_v0.1.zip)**
 
 **[Asset_Flinger_Add-on_v0.2.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.2.zip)** (Blender 2.77)
 
