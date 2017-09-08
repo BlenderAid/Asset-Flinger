@@ -29,12 +29,9 @@ Note: This video shows Asset Flinger 0.1/0.2. The current version has a slighted
 #### Screenshot:
 ![Screenshot](http://i.imgur.com/sjnjRNl.jpg)
 
-#### GIF animation about using the Thumbnailer (Windows):
-<a href="http://i.imgur.com/cbulKFh.gif" target="_blank">![Gif](http://i.imgur.com/cbulKFh.gif)</a>
-
 # Asset Flinger
 
-Note: Since version 0.3 Asset Flinger has had a new fork and a new maintainer here: [Asset_Flinger_New Maintainer](https://github.com/black-h0bB1T/Asset-Flinger).
+Note: Since version 0.3 Asset Flinger has had a new fork and a new maintainer here: [Asset Flinger New Maintainer](https://github.com/black-h0bB1T/Asset-Flinger).
 
 Asset Flinger is a **Free Blender Add-on for simple mesh importing via graphical menu**.
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
