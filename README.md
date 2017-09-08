@@ -2,6 +2,10 @@
 
 # Download
 
+**[Asset_Flinger_Add-on_v0.3.zip](https://github.com/black-h0bB1T/Asset-Flinger/blob/master/releases/Asset_Flinger_Add-on_v0.3.zip?raw=true)** (Blender 2.78c)
+
+**[Asset_Pack v0.1.zip](files.manujarvinen.com/asset_pack_v0.1.zip)**
+
 **[Asset_Flinger_Add-on_v0.2.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.2.zip)** (Blender 2.77)
 
 **[Asset_Flinger_Add-on_v0.1.zip](http://files.manujarvinen.com/Asset_Flinger/Asset_Flinger_Add-on_v0.1.zip)** (Blender 2.76 or lower)
@@ -9,7 +13,17 @@
 - **[Installation instructions](https://github.com/BlenderAid/Asset-Flinger#installation)**
 - Includes some nice ready-made ***CC-0 / Public Domain / 100%-free-for-commercial-use*** assets. They can be downloaded from **[here](http://blenderaid.com/asset_library)** as well.
 
+# Usage
+
+* Define your asset folder from the Add-on's settings
+* Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
+* Add a mesh asset via shortcut: **Ctrl+Shift+Alt+A**
+* Supports subfolders
+* If you want, **download the Asset Pack and unzip it** to the asset folder to have a nice collection of free CC-0 public domain licensed useful assets, like nuts and bolts and many others.
+
 # Demo
+
+Note: This video shows Asset Flinger 0.1/0.2. The current version has a slighted enhanced UI.
 
 #### Video:
 <a href="http://youtu.be/qYYoSTjIOTY" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
@@ -20,6 +34,9 @@
 <a href="http://i.imgur.com/cbulKFh.gif" target="_blank">![Gif](http://i.imgur.com/cbulKFh.gif)</a>
 
 # Asset Flinger
+
+[note: Since version 0.3 Asset Flinger has had a new fork and a new maintainer here: [Asset_Flinger_New Maintainer](https://github.com/black-h0bB1T/Asset-Flinger).
+
 Asset Flinger is a work-in-progress **Free Blender Add-on for simple mesh importing via graphical menu**.
 It's aimed at 3D modellers who constantly import pre-made 3D assets from their libraries for building their highly detailed creations.
 
@@ -35,14 +52,6 @@ Although, **contributions as pull requests** to the project would be highly appr
 > Also CC-0 licenced .obj assets would be gladly accepted as contributions, and I plan on making and adding more of them - I'm very picky about their quality, though. Personally I like to use Asset Flinger for my daily modeling, regardless of its shortcomings :) 
 
 > — Manu Järvinen
-
-# Usage
-
-* Add a mesh asset via shortcut: **Ctrl+Shift+Alt+A**
-* Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
-* Supports subfolders
-* Supports **.obj** file format and **.mtl** materials (object material slots are remembered)
-* For generating the asset thumbnails (doesn't work in Mac OS X yet), user can drag-and-drop **.obj** files to the provided Thumbnailer python or bat file. New instance of Blender will render them in the background.
 
 # Installation
 #### Installing the Add-on :
