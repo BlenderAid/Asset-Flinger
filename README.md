@@ -22,7 +22,7 @@
 
 # Demo
 
-Note: This video shows Asset Flinger 0.1/0.2. The current version has a slighted enhanced UI.
+Note: This video shows Asset Flinger 0.1/0.2. The current version has a bit more enhanced UI.
 
 #### Video:
 <a href="http://youtu.be/qYYoSTjIOTY" target="_blank">![Video](http://i.imgur.com/BwRkfsY.jpg)</a>
