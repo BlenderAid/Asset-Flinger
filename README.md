@@ -21,6 +21,8 @@
 * If you want, **download the Asset Pack and unzip it** to the asset folder to have a nice collection of ***CC-0 / Public Domain / 100%-free-for-commercial-use*** useful assets, like nuts and bolts and many others. They can be downloaded from **[here](http://blenderaid.com/asset_library)** as well.
 * If you have 100s of .obj files without thumbnails, you can download the 0.2 version of Asset Flinger, navigate to the thumbnailer folder and drag'n'drop the .obj files over the .py or .bat files in order to render thumbnails for them. You may need to edit the .py or .bat files to put your Blender's install location into them. The Mac Thumbnailer didn't seem to work, unfortunately :(
 
+For example you might want to convert [this](https://gumroad.com/l/HTJJk) free 400-piece kitbashing set for Asset Flinger.
+
 # Demo
 
 Note: This video shows Asset Flinger 0.1/0.2. The current version has a bit more enhanced UI.
