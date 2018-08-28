@@ -12,13 +12,14 @@
 
 - **[Installation instructions](https://github.com/BlenderAid/Asset-Flinger#installation)**
 
-# Usage
+# Usage (IMPORTANT! READ THESE BEFORE USING!)
 
-* Define your asset folder from the Add-on's settings
-* Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E**
+* Define your asset folder from the Add-on's settings, the path **CAN'T CONTAIN ANY SPACES** or it doesn't work.
+* Export your own mesh asset to the library via shortcut: **Ctrl+Shift+Alt+E** - By this method you **AUTOMATICALLY render a thumbnail** for the object.
 * Add a mesh asset via shortcut: **Ctrl+Shift+Alt+A**
 * Supports subfolders
 * If you want, **download the Asset Pack and unzip it** to the asset folder to have a nice collection of ***CC-0 / Public Domain / 100%-free-for-commercial-use*** useful assets, like nuts and bolts and many others. They can be downloaded from **[here](http://blenderaid.com/asset_library)** as well.
+* If you have 100s of .obj files without thumbnails, you can download the 0.2 version of Asset Flinger, navigate to the thumbnailer folder and drag'n'drop the .obj files over the .py or .bat files in order to render thumbnails for them. You may need to edit the .py or .bat files to put your Blender's install location into them. The Mac Thumbnailer didn't seem to work, unfortunately :(
 
 # Demo
 
@@ -67,6 +68,7 @@ Asset Flinger has been tested and proved to work on :
 * Blender 2.72 (Windows 7, MacOS X 10.10 Yosemite (except Thumbnailer), Ubuntu 14.10, Xubuntu 14.10)
 
 # Known Bugs / Issues
+* Spaces not supported in the 'Asset library path'
 * Doesn't work in Local View (isolation mode)
 * When Tool Shelf (T) or Properties (N) panel is open in 3D view, you can't toggle them off after you've launched the Asset Flinger menu
 * While using Asset Flinger in quad view or other types of layouts that have multiple smaller 3D views, the menu appears to all of them.
