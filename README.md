@@ -1,5 +1,14 @@
 ![Header](http://i.imgur.com/gp3BdlI.jpg)
 
+# About Blender 2.8
+
+*"Addon Compatibility
+When we switch to the OpenGL 3.3 core profile in Blender 2.8, addons that do OpenGL drawing will no longer be able to use deprecated functions. Old functions have already been removed from bpy.
+
+We will give addon writers a way to draw into editors, but the exact API needs to be designed."*
+
+So, Asset Flinger for Blender 2.8 will be on hold for the moment :/ Let's see how things turn out for the future.
+
 # Download
 
 **[Asset_Flinger_Add-on_v0.3.zip](https://github.com/black-h0bB1T/Asset-Flinger/blob/master/releases/Asset_Flinger_Add-on_v0.3.zip?raw=true)** (Blender 2.78c)
